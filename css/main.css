@@ -21,6 +21,21 @@ body {
 }
 .vert-text h3 {color: #fff}
 
+.btn.btn-down {
+  color: #fff;
+  padding: 10px;
+  width: 49px;
+  border-color: #fff;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.btn.btn-down:hover {
+  color: #ccc;
+  border-color: #ccc;
+  transition: 0.3s;
+}
+
 /* Side Menu */
 
 #sidebar-wrapper {
@@ -37,6 +52,18 @@ body {
   -ms-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
+}
+
+#menu-close.btn-default {
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#menu-close.btn-default:hover {
+  color: #ccc;
+  transition: 0.3s;
 }
 
 .sidebar-nav {
@@ -92,6 +119,21 @@ body {
   z-index: 1;
 }
 
+#menu-toggle.btn-primary {
+  background-color: transparent;
+  border-color: transparent;
+  transition: 0.3s;
+}
+
+#menu-toggle.btn-primary:hover {
+  color: #ccc;
+  transition: 0.3s;
+}
+
+i.fa {
+  font-size: 25px;
+}
+
 #sidebar-wrapper.active {
   right: 250px;
   width: 250px;
@@ -124,6 +166,15 @@ body {
 
 .intro {
   padding: 50px 0;
+  background-color: #333;
+}
+
+.intro h2 {
+  color: #fff;
+}
+
+.intro p {
+  color: #fff;
 }
 
 /* Services */
