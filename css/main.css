@@ -188,13 +188,17 @@ i.fa {
 /* Services */
 
 .services {
-  background: #3685ac;
+  background: #005628;
   padding: 50px 0;
   color: #ffffff;
 }
 
 .service-item {
   margin-bottom: 15px;
+}
+
+.service-item h4 {
+  font-weight: bold;
 }
 
 i.service-icon {
@@ -237,17 +241,9 @@ i.service-icon {
   margin: 0 auto;
 }
 
-
-/* Call to Action */
-
-.call-to-action {
-  color: #ffffff;
-  background: #0a5175;
-  padding: 50px 0;
-}
-
-.call-to-action .btn {
-  margin: 10px;
+.portfolio .insta-link a {
+  color: #aa007f;
+  font-size: 18px;
 }
 
 /* Map */
