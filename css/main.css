@@ -1,9 +1,13 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Raleway:400,500,700,700i&subset=cyrillic');
+
 /* Global Styles */
 
 html,
 body {
   height: 100%;
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .vert-text {
@@ -18,6 +22,7 @@ body {
   margin: 0;
   font-size: 4.5em;
   font-weight: 700;
+  font-family: 'Raleway', sans-serif;
 }
 .vert-text h3 {color: #fff}
 
